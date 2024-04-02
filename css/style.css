@@ -48,6 +48,7 @@ img {
 
 .caption {
     font-style: italic;
+    padding: 0px 32px;
 }
 
 .contact {
@@ -55,3 +56,8 @@ img {
     font-weight: 600;
 }
 
+.portfolio-link {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
