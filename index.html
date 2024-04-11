@@ -23,7 +23,21 @@
           <img src="assets/images/errantes_detalle.JPG" alt="detail picture of a painting">
           <p class="caption">"errantes: pie de dragon" (detail) - 2023 </p>
         </div>
-        <!-- <div class="contact">macellariv@gmail.com</div> -->
+        <div id="contact-email">contact</div>
+        <script type="text/javascript">
+          // Define the parts of your email address
+          var username = "macellariv"; // your email username
+          var domain = "gmail.com"; // your email domain
+      
+          // Function to generate the obfuscated email address
+          function generateEmail() {
+              var emailAddress = username + "@" + domain;
+              document.getElementById("contact-email").innerHTML = "<a href='mailto:" + emailAddress + "'>" + emailAddress + "</a>";
+          }
+      
+          // Call the function to generate the obfuscated email address
+          generateEmail();
+      </script>
     </main>
 </body>
 </html>
