@@ -41,6 +41,7 @@ body {
 
 #my-desc {
     display: inline-block;
+    justify-content: right;
     padding: 32px;
 }
 
