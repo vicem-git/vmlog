@@ -65,4 +65,5 @@ img {
     display: flex;
     justify-content: flex-end;
     font-style: italic;
+    padding: 32px;
 }
