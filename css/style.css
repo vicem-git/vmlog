@@ -61,12 +61,8 @@ img {
     padding: 0px 32px;
 }
 
-#contact-email {
-    font-style: italic;
-}
-
-.portfolio-link {
+#port-cont {
     display: flex;
-    justify-content: left;
-    text-decoration: none;
+    justify-content: flex-end;
+    font-style: italic;
 }
