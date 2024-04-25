@@ -61,6 +61,7 @@ img {
     padding: 0px 32px;
 }
 
+
 #port-cont {
     display: flex;
     justify-content: flex-end;
@@ -68,4 +69,8 @@ img {
     padding: 32px;
     align-items: baseline;
     gap: 16px;
+}
+
+.portfolio h2 {
+    margin-bottom: 0;
 }
