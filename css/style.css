@@ -91,7 +91,7 @@ body {
 
 .contact-div {
     display: flex;
-    justify-content: flex-end;
+    justify-content: baseline;
 }
 
 /* ------------ COVER ------------- */

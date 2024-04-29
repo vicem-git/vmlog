@@ -2,5 +2,5 @@
 
 //  toggle dropdown
 function toggleDropdown() {
-    document.getElementById("port-butt").classList.toggle("show");
+    document.getElementById("port-dropdown").classList.toggle("show");
    }
