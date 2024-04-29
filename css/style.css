@@ -88,6 +88,12 @@ body {
     background-color: #E2E2DD;
 }
 
+
+.contact-div {
+    display: flex;
+    justify-content: flex-end;
+}
+
 /* ------------ COVER ------------- */
 
 .cover-img {
