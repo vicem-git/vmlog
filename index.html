@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header><h1>VICENTE MACELLARI</h1></header>
+    <header><h1>Vicente Macellari</h1></header>
     <main class="body-main">
         <div id="my-desc">
             <h1>impressions</h1>
@@ -21,9 +21,12 @@
         </div>
         <br>
         <div id="port-cont">
-          <div class="portfolio"><h2>portfolio</h2>
-            <a href="assets/portfolio_pdfs/(ENG)-Portfolio-Vicente_Macellari.pdf">english</a><br>
-            <a href="assets/portfolio_pdfs/portfolio_FR.pdf">français</a>
+          <div class="portfolio">
+            <button onclick="toggleDropdown()" class="port-butt">portfolio</button>
+            <div class="port-dropdown">
+              <a href="assets/portfolio_pdfs/(ENG)-Portfolio-Vicente_Macellari.pdf">english</a><br>
+              <a href="assets/portfolio_pdfs/portfolio_FR.pdf">français</a>
+            </div>
           </div>
           <div id="contact-email">contact</div>  
         </div>
@@ -32,6 +35,7 @@
           <p class="caption">"errantes" (detail) - 2023 </p>
         </div>
         <script type="text/javascript" src="scripts/email_obf.js"></script>
+        <script type="text/javascript" src="scripts/functionality.js"></script>
     </main>
 </body>
 </html>
