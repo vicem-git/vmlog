@@ -13,13 +13,13 @@
     font-family: "Sedan", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
   
-  .sedan-regular-italic {
+.sedan-regular-italic {
     font-family: "Sedan", serif;
     font-weight: 400;
     font-style: italic;
-  }
+}
 
 header {
    display: flex;
@@ -54,11 +54,15 @@ body {
 /* ------------ PORT CONT ------------- */
 
 #port-cont {
-    display: inline-block;
-    font-style: italic;
-    padding: 32px;
+    display: flex;
+    justify-content: flex-start;
     align-items: baseline;
-    gap: 16px;
+    padding: 32px;
+}
+
+.port-dropdown {
+    position: relative;
+    display: inline-block;
 }
 
 .port-butt {
@@ -69,29 +73,44 @@ body {
     cursor: pointer;   
 }
 
-.port-dropdown a {
-    display: block;
-    color: #393933;
-    padding: 5px;
+.port-butt a:hover {
+    background-color: #E2E2DD;
 }
 
-.port-dropdown {
+.drop-content {
     display: none;
     background-color:#E2E2DD;
     position: absolute;
     min-width: 100px;
     box-shadow: 2px 2px 5px #393933;
+    z-index: 1;
+}
+
+.drop-content.show {
+    display: block;
+}
+
+.drop-content a {
+    display: block;
+    color: #393933;
+    padding: 5px;
 }
 
 
-.port-dropdown a:hover {
+.drop-content a:hover {
     background-color: #E2E2DD;
 }
 
 
 .contact-div {
-    display: flex;
-    justify-content: baseline;
+    display: inline-block;
+    align-items: center;
+    font-style: italic;
+}
+
+#contact-email {
+    display: inline-block;
+    align-items: center;
 }
 
 /* ------------ COVER ------------- */
@@ -115,8 +134,5 @@ img {
 
 /* ------------ FUNCTIONAL ----------  */
 
-.show {
-    display: block;
-}
 
 
