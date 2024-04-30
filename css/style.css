@@ -24,7 +24,7 @@
 header {
    display: flex;
    justify-content: flex-start;
-   padding: 64px 0px 0px 32px;
+   padding: 16px 0px 0px 32px;
    background-color: whitesmoke;
    list-style: none;
 }
@@ -45,9 +45,10 @@ body {
 /* ------------ DESC ------------- */
 
 #my-desc {
-    display: inline-block;
+    display: flex;
     justify-content: right;
     padding: 32px;
+    text-align: right;
 }
 
 
@@ -55,7 +56,7 @@ body {
 
 #port-cont {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: baseline;
     padding: 32px;
 }
@@ -66,10 +67,14 @@ body {
 }
 
 .port-butt {
-    background-color: whitesmoke;
-    border: #393933;
-    padding: 4px 7px;
+    /*background-color: #E2E2DD;*/
+    border-radius: 8px;
+    border: solid;
+    border-color: #393933;
+    border-width: 1px;
+    padding: 6px 10px;
     font-size: 22px;
+    font-family: "Sedan";
     cursor: pointer;   
 }
 
@@ -86,7 +91,7 @@ body {
     z-index: 1;
 }
 
-.drop-content.show {
+.port-butt:hover + .drop-content {
     display: block;
 }
 
@@ -103,7 +108,8 @@ body {
 
 
 .contact-div {
-    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
     font-style: italic;
 }
@@ -111,6 +117,7 @@ body {
 #contact-email {
     display: inline-block;
     align-items: center;
+    padding-left: 8px;
 }
 
 /* ------------ COVER ------------- */
