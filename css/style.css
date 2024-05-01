@@ -148,7 +148,7 @@ img {
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width:320px) {
+@media only screen and (max-width:478px) {
     .port-butt {
         font-size: 16px;
         padding: 4px 8px;
