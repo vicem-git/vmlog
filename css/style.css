@@ -78,6 +78,14 @@ body {
     cursor: pointer;   
 }
 
+@media screen and (max-width:600px) {
+    .port-butt {
+        font-size: 16px;
+        padding: 4px 8px;
+    }
+
+}
+
 .port-butt a:hover {
     background-color: #E2E2DD;
 }
@@ -91,9 +99,13 @@ body {
     z-index: 1;
 }
 
+
+/*
 .port-butt:hover + .drop-content {
     display: block;
-}
+} 
+*/
+
 
 .drop-content a {
     display: block;
