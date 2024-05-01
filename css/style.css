@@ -78,14 +78,6 @@ body {
     cursor: pointer;   
 }
 
-@media screen and (max-width:600px) {
-    .port-butt {
-        font-size: 16px;
-        padding: 4px 8px;
-    }
-
-}
-
 .port-butt a:hover {
     background-color: #E2E2DD;
 }
@@ -154,4 +146,16 @@ img {
 /* ------------ FUNCTIONAL ----------  */
 
 
+/* MEDIA QUERIES */
+
+@media only screen and (max-width:320px) {
+    .port-butt {
+        font-size: 16px;
+        padding: 4px 8px;
+    }
+
+    .contact-div h2, p{
+        font-size: 12px;
+    }
+}
 
